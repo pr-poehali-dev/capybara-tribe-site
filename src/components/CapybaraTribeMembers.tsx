@@ -37,7 +37,7 @@ export default function CapybaraTribeMembers() {
       name: "Солнечный Луч",
       role: "Хранитель традиций",
       description: "Ответственен за сохранение истории племени. Обладает исключительной памятью и знает все легенды и мифы капибар.",
-      imageUrl: "https://images.unsplash.com/photo-1577114996865-cb8f6be888a3?q=80&w=2069",
+      imageUrl: "https://cdn.poehali.dev/files/cfa5e70c-41ac-4a2e-8a86-5d9f90ed1f99.jpeg",
       category: "elders"
     },
     {
@@ -53,7 +53,7 @@ export default function CapybaraTribeMembers() {
       name: "Травяной Шепот",
       role: "Целитель",
       description: "Знает все о лечебных растениях и травах. Его припарки и отвары помогают при любых недугах и болезнях.",
-      imageUrl: "https://images.unsplash.com/photo-1591382386627-349b692688ff?q=80&w=2067",
+      imageUrl: "https://cdn.poehali.dev/files/3de1e444-1d50-42be-a929-f84bfe252c85.jpg",
       category: "shamans"
     }
   ];

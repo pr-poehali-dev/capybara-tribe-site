@@ -11,35 +11,17 @@ export default function CapybaraTribeFooter() {
             <p className="mb-4">
               Живем в гармонии с природой и друг с другом. Наше племя — это семья, объединенная древними традициями.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="hover:text-white">
-                <Icon name="Facebook" size={20} />
-              </a>
-              <a href="#" className="hover:text-white">
-                <Icon name="Instagram" size={20} />
-              </a>
-              <a href="#" className="hover:text-white">
-                <Icon name="Twitter" size={20} />
-              </a>
-            </div>
           </div>
           
           <div>
-            <h3 className="mb-4 text-xl font-semibold">Связь с нами</h3>
-            <ul className="space-y-2">
-              <li className="flex items-center gap-2">
-                <Icon name="MapPin" size={16} />
-                <span>Река Амазонка, Южная Америка</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Icon name="Mail" size={16} />
-                <span>contact@capybaratribe.com</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Icon name="Phone" size={16} />
-                <span>+123-456-7890</span>
-              </li>
-            </ul>
+            <h3 className="mb-4 text-xl font-semibold">О нас</h3>
+            <p className="mb-4">
+              Мы — бесконтактное племя капибар, которое общается только между собой. Наше местоположение известно лишь нам.
+            </p>
+            <div className="flex items-center gap-2">
+              <Icon name="ShieldAlert" size={16} />
+              <span>Мы не принимаем посетителей</span>
+            </div>
           </div>
           
           <div>
@@ -49,7 +31,6 @@ export default function CapybaraTribeFooter() {
               <li><a href="#" className="hover:text-white">О племени</a></li>
               <li><a href="#" className="hover:text-white">Члены племени</a></li>
               <li><a href="#" className="hover:text-white">Традиции</a></li>
-              <li><a href="#" className="hover:text-white">Контакты</a></li>
             </ul>
           </div>
         </div>
