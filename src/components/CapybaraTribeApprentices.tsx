@@ -12,7 +12,7 @@ export default function CapybaraTribeApprentices() {
       name: "Росинка",
       role: "Ученик шамана",
       description: "Юная капибара с необычайным даром чувствовать энергию воды. Водяная Мудрость лично выбрал её своим преемником.",
-      imageUrl: "https://cdn.poehali.dev/files/6d428f4b-dbb3-48f2-a2d3-4eb83a437dab.jpeg",
+      imageUrl: "https://cdn.poehali.dev/files/64633452-43dc-4405-a51c-8e288dc0cebe.jpeg",
       category: "shaman"
     },
     {
@@ -20,7 +20,7 @@ export default function CapybaraTribeApprentices() {
       name: "Корешок",
       role: "Ученик целителя",
       description: "Самый внимательный из учеников. Запоминает свойства каждой травы с первого раза и уже умеет готовить простые отвары от простуды.",
-      imageUrl: "https://cdn.poehali.dev/files/7b315e6d-4000-47aa-ae29-e688119c05ea.jpg",
+      imageUrl: "https://cdn.poehali.dev/files/fa453c65-3747-4a0c-8875-dce2ce53588d.jpg",
       category: "healer"
     },
     {
@@ -30,6 +30,22 @@ export default function CapybaraTribeApprentices() {
       description: "Медитативный и спокойный детёныш. Несмотря на юный возраст, уже может часами сидеть у воды, прислушиваясь к голосам природы.",
       imageUrl: "https://cdn.poehali.dev/files/b6dde822-13af-4ac1-8359-589c090a6fec.jpg",
       category: "healer"
+    },
+    {
+      id: 4,
+      name: "Ягодка",
+      role: "Ученик травника",
+      description: "Маленькая капибара с особым чутьем на целебные ягоды и фрукты. Может найти самые редкие растения даже в густых зарослях.",
+      imageUrl: "https://images.unsplash.com/photo-1600366060302-9fb7682b062b?q=80&w=1974",
+      category: "healer"
+    },
+    {
+      id: 5,
+      name: "Речной Прыгун",
+      role: "Ученик прорицателя",
+      description: "Уникальная способность видеть образы в воде выделяет этого юного ученика. Старейшины видят в нем большой потенциал.",
+      imageUrl: "https://images.unsplash.com/photo-1598382694281-94ae52df051e?q=80&w=1984",
+      category: "shaman"
     }
   ];
   
