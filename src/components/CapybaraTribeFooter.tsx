@@ -2,6 +2,10 @@ import { Separator } from "@/components/ui/separator";
 import Icon from "@/components/ui/icon";
 
 export default function CapybaraTribeFooter() {
+  const scrollToSection = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({behavior: 'smooth'});
+  };
+
   return (
     <footer className="bg-amber-900 pb-8 pt-12 text-amber-100">
       <div className="container mx-auto px-4">
@@ -27,10 +31,10 @@ export default function CapybaraTribeFooter() {
           <div>
             <h3 className="mb-4 text-xl font-semibold">Навигация</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-white">Главная</a></li>
-              <li><a href="#" className="hover:text-white">О племени</a></li>
-              <li><a href="#" className="hover:text-white">Члены племени</a></li>
-              <li><a href="#" className="hover:text-white">Традиции</a></li>
+              <li><button onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="hover:text-white">Главная</button></li>
+              <li><button onClick={() => scrollToSection('traditions')} className="hover:text-white">Традиции</button></li>
+              <li><button onClick={() => scrollToSection('gallery')} className="hover:text-white">Галерея</button></li>
+              <li><button onClick={() => scrollToSection('apprentices')} className="hover:text-white">Ученики</button></li>
             </ul>
           </div>
         </div>

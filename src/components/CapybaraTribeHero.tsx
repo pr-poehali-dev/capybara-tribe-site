@@ -18,20 +18,30 @@ export default function CapybaraTribeHero() {
             Добро пожаловать в удивительный мир племени капибар — самых дружелюбных и величественных грызунов на планете.
             Познакомьтесь с нашими мудрыми предводителями и узнайте о традициях нашего древнего племени.
           </p>
-          <div className="flex gap-4">
+          <div className="flex flex-wrap gap-4 justify-center">
             <Button 
               variant="default" 
               className="bg-amber-700 hover:bg-amber-800"
               size="lg"
+              onClick={() => document.getElementById('traditions')?.scrollIntoView({behavior: 'smooth'})}
             >
-              Узнать больше
+              Традиции
             </Button>
             <Button 
               variant="outline" 
               className="border-amber-700 text-amber-700 hover:bg-amber-100 hover:text-amber-800"
               size="lg"
+              onClick={() => document.getElementById('gallery')?.scrollIntoView({behavior: 'smooth'})}
             >
               Галерея
+            </Button>
+            <Button 
+              variant="outline" 
+              className="border-amber-700 text-amber-700 hover:bg-amber-100 hover:text-amber-800"
+              size="lg"
+              onClick={() => document.getElementById('apprentices')?.scrollIntoView({behavior: 'smooth'})}
+            >
+              Ученики
             </Button>
           </div>
         </div>
